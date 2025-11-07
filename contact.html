@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Nutritionist</title>
+
+  <!-- linking my main css file -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Urbanist font -->
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- quick skip link for accessibility -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- header (same setup as home page) -->
+  <header class="site-header">
+    <div class="top-bar">
+      <div class="promo-pill" role="note" aria-label="Join our demo">
+
+        <!-- small icon -->
+        <img src="images/logo-icon-front(1).png" alt="" class="pill-icon">
+        <span class="pill-text">Join Our Personalized Nutrition Demo For Free</span>
+        <span class="pill-arrow" aria-hidden="true">→</span>
+      </div>
+    </div>
+
+    <div class="main-nav">
+      <div class="nav-left">
+
+        <!-- main logo -->
+        <img src="images/logo-nutritionist.png" alt="Nutritionist logo" class="logo">
+      </div>
+
+      <div class="nav-right">
+
+        <!-- main navigation -->
+        <nav aria-label="Primary">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="team.html">Team</a></li> 
+            <li><a href="#">Process</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <a class="btn btn-light" href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- main part of the page -->
+  <main id="main">
+
+    <!-- contact section -->
+    <section class="contact-page">
+      <div class="contact-header">
+
+        <!-- small icon -->
+        <img src="images/logo-icon-front.png" alt="Nutritionist Clover Icon" class="contact-icon">
+        <h2>Contact Us</h2>
+        <p>We value your feedback, questions, and concerns at Nutritionist. Our dedicated team is here to assist you and provide the support you need on your nutritional journey. Please don’t hesitate to reach out using any of the following contact methods.</p>
+      </div>
+
+      <!-- three info boxes - email, phone, and address -->
+      <div class="contact-info-boxes">
+        <div class="contact-box">
+          <img src="images/icon-message.png" alt="Email Icon">
+          <p>support@nutritionist.com</p>
+        </div>
+        <div class="contact-box">
+          <img src="images/icon-phone-2.png" alt="Phone Icon">
+          <p>+91 00000 00000</p>
+        </div>
+        <div class="contact-box">
+          <img src="images/icon-location-3.png" alt="Location Icon">
+          <p>Somewhere in the World</p>
+        </div>
+      </div>
+
+      <!-- contact form and map area -->
+      <div class="contact-form-section">
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter your Email" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your Number" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Enter your Message"></textarea>
+            <span class="char-limit">Max 250 Chars</span>
+          </div>
+
+          <button type="submit" class="btn-send">Send Message</button>
+        </form>
+
+        <!--  responsive image for the map -->
+        <div class="contact-map">
+          <img 
+            src="images/map-preview.svg"
+            srcset="images/map-preview-small.svg 400w, images/map-preview.svg 800w"
+            sizes="(max-width: 600px) 100vw, 50vw"
+            alt="Map Location">
+
+          <!-- social media icons below the map -->
+          <div class="social-icons">
+            <a href="#"><img src="images/icon-facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/icon-twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/icon-linkedin.png" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- join us / CTA section -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <div class="cta-text">
+          <h3>Are you ready to embark on a transformative journey towards better health and wellness?</h3>
+          <p>Join us at Nutritionist and let us guide you on the path to a healthier and happier you.</p>
+        </div>
+        <a href="#" class="btn-join">Join Us Now</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer (same as other pages) -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="images/logo-nutritionist.png" alt="Nutritionist Logo">
+      </div>
+
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Process</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- go to top button -->
+      <div class="go-top-wrapper">
+        <span class="go-top-text">Go To Top</span>
+        <a href="#top" class="go-top-circle">
+          <img src="images/arrow-small-up.png" alt="Go to Top" class="go-top-icon">
+        </a>
+      </div>
+    </div>
+
+    <!-- bottom info -->
+    <div class="footer-bottom">
+      <div class="contact-info">
+        <div class="contact-item">
+          <img src="images/icon-message.png" alt="Email Icon">
+          <span>hello@squareup.com</span>
+        </div>
+        <div class="contact-item">
+          <img src="images/icon-phone-2.png" alt="Phone Icon">
+          <span>+91 91813 23 2309</span>
+        </div>
+        <div class="contact-item">
+          <img src="images/icon-location-3.png" alt="Location Icon">
+          <span>Somewhere in the World</span>
+        </div>
+      </div>
+      <p class="copyright">© 2025 Nutritionist. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
